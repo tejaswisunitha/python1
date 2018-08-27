@@ -1,4 +1,6 @@
 if n%2==0:
 print("even")
-else:
+elif:
 print("odd")
+else:
+  print("invalid")
