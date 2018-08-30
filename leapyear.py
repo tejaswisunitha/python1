@@ -5,4 +5,4 @@ def leapyr(n):
     elif n%4!=0:
         print ("no")
     else:
-        print("invalid")
+        print("yes")
