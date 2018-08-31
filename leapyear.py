@@ -1,8 +1,5 @@
-def leapyr(n):
-    if n%4==0 and n%100!=0:
-        if n%400==0:
-            print("yes")
-    elif n%4!=0:
-        print ("no")
-    else:
-        print("yes")
+year=int(input("Enter year to be checked:"))
+if(year%4==0 and year%100!=0):
+    print("yes")
+else:
+    print("no")
